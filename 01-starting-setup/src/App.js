@@ -1,5 +1,4 @@
-import ExpenseItem from "./ components/ExpenseItem";
-
+import DisplayItems from './components/DisplayItems';
 function App (){
   const expenses = [
     {
@@ -26,10 +25,9 @@ function App (){
     },
   ];
 
-
   return(
     <div>
-      
+     <DisplayItems expenses ={expenses} />
     </div>
   );
 }

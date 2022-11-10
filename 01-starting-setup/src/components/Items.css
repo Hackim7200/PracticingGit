@@ -1,0 +1,12 @@
+.items{
+    border: solid blueviolet;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+.items div{
+    border: solid wheat;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
